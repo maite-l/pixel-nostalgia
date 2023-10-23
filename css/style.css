@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.instructions
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-family: monospace;
+    font-size: 0.8rem;
+    padding: 10px;
+    z-index: 1;
+    text-align: right;
+    font-weight: 100;
+}
+
+h1 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding: 10px;
+    z-index: 1;
+}
